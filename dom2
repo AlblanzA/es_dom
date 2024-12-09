@@ -26,4 +26,4 @@ Cerca tutti gli elementi h2 della pagina
 
   document.getElementsByClassName("paragrafo")
   document.getElementById("elemento-3")
-  querySelectorAll(h2)
+  document.querySelectorAll(h2)
