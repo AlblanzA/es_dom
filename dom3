@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div>
+      <h1>To-do List</h1>
+      <input type="text" class="insert" placeholder="aggiungi..." />
+      <button onclick="addProduct()">Aggiungi</button>
+      <ul class="listaTodo"></ul>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+
+  const addProduct = () => {
+  const inputAdd = document.querySelector("insert"); //seleziono l'elemento a cui aggiungere elementi lista
+  const taskList = document.querySelector("listaTodo");
+  const list1 = document.createElement("li"); //aggiungo elementi alla lista
+  // list1.appendChild("listaTodo");
+
+  console.log(list1);
+  console.log("sto aggiungendo elementi alla lista");
+
+  const checkbox = document.createElement();
+  checkbox.type = "checkbox";
+  console.log(checkbox);
+
+  listItem.appendChild(checkbox);
+};
